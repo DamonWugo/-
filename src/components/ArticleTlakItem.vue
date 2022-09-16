@@ -1,7 +1,7 @@
 <template>
   <div class="talk-item-container">
     <div class="item-name">
-      游客{{ talkItem && talkItem.id.substring(0, 5) }}
+      游客{{ talkItem && talkItem.id.substring(0, 6) }}
     </div>
     <div class="item-content">
       {{ talkItem && talkItem.content }}
