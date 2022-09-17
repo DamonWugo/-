@@ -1,7 +1,7 @@
 <template>
   <div class="classic-container">
     <div class="classic-header">
-      <div class="classic-left">
+      <!-- <div class="classic-left">
         <ul>
           <li
             v-for="(classicItem, index) in classicArr"
@@ -23,7 +23,8 @@
             />
           </el-scrollbar>
         </div>
-      </div>
+      </div> -->
+      <WordCloud />
     </div>
     <div class="classic-footer">
       <TuBiao :articleLists="articleLists" />
@@ -36,16 +37,19 @@
 <script>
 import { reactive, ref } from "vue";
 // import router from "../router";
-import ClassicItem from "./ClassicItem.vue";
+// import ClassicItem from "./ClassicItem.vue";
 import TuBiao from "./ClassicTuBiao.vue";
 import GetDataPage from "./GetDataPage.vue";
+import WordCloud from "./WordCloud.vue";
+
 export default {
   name: "ClassicPage",
   props: ["articleLists"],
   components: {
-    ClassicItem,
+    // ClassicItem,
     TuBiao,
     GetDataPage,
+    WordCloud,
   },
   setup(props) {
     const classicArr = reactive([
@@ -83,7 +87,9 @@ export default {
 .classic-header {
   display: flex;
   flex-direction: row;
-  height: 242px;
+  height: 245px;
+  width: 300px;
+  border: 1px solid #ccc;
 }
 .classic-left {
   display: flex;

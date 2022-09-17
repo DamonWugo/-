@@ -76,8 +76,7 @@ export default {
 .publish-container {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  margin: 13px 23px;
+  padding: 13px 23px;
 }
 .publish-header {
   display: flex;
