@@ -131,7 +131,7 @@ img {
   left: 65px;
 }
 #friend-name {
-  width: 139px;
+  width: 138px;
   height: 17px;
   line-height: 17px;
   font-size: 14px;
