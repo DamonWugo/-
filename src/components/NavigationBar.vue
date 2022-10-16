@@ -175,7 +175,8 @@ export default {
       }
       let formdata = new FormData();
       formdata.append("avatar", avatar);
-
+      console.log("[formdata]", formdata);
+      console.log("[avatar]", avatar);
       axios({
         method: "POST",
         url: "blog/uploadAvatar",
@@ -190,6 +191,7 @@ export default {
           type: "success",
         });
       });
+      console.log("[formdata]", formdata);
     }
 
     function loginout() {

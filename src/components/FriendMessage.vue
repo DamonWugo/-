@@ -15,7 +15,7 @@ import store from "../store";
 import router from "../router";
 import { computed } from "@vue/runtime-core";
 import axios from "axios";
-// import { ref } from "vue";
+// import { ref, } from "vue";
 
 export default {
   name: "FriendMessage",
@@ -127,7 +127,7 @@ img {
 }
 .name-box {
   position: absolute;
-  top: 16px;
+  top: 17px;
   left: 65px;
 }
 #friend-name {
