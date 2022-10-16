@@ -127,7 +127,7 @@ img {
 }
 .name-box {
   position: absolute;
-  top: 17px;
+  top: 16px;
   left: 65px;
 }
 #friend-name {
