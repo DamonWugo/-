@@ -131,7 +131,7 @@ img {
   left: 65px;
 }
 #friend-name {
-  width: 138px;
+  width: 139px;
   height: 17px;
   line-height: 17px;
   font-size: 14px;
@@ -152,5 +152,9 @@ img {
   overflow: hidden;
   /* 用省略号替代剩余部分 */
   text-overflow: ellipsis;
+}
+.sss {
+  /* 测试1 */
+  color: #fff;
 }
 </style>
