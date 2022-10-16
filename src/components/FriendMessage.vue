@@ -152,5 +152,6 @@ img {
   overflow: hidden;
   /* 用省略号替代剩余部分 */
   text-overflow: ellipsis;
+  /* 测试2 */
 }
 </style>
